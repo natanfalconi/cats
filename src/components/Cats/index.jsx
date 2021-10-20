@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { CatsList } from "../CatsList"
 import './styled.css'
 
 export function Cats() {
@@ -15,15 +16,13 @@ export function Cats() {
 
   return (
     <>
-      {cats?.map((cat) => (
-
-        <div key={cat.id} className="container">
-          <img src={cat?.image?.url} alt="" />
-          <h2>{cat.name}</h2>
-          <p>{cat.description}</p>
-          <a href={cat.wikipedia_url} target="_blank" >Saiba Mais</a>
-        </div>
-      ))}
+      <section className="cats_container">
+        <ul className="cats_container-list" >
+          {cats?.map((cat) => (
+            <CatsList cat={cat} />
+          ))}
+        </ul>
+      </section>
     </>
   )
 }

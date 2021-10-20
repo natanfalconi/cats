@@ -2,7 +2,7 @@ header {
     height: 5rem;
 
     display: flex;
-    background-color: #02735E;
+    background-color: #262521;
     align-items: center;
     color: black;
 }
@@ -31,4 +31,6 @@ header {
 .menu li a{
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    
 }

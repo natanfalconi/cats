@@ -15,7 +15,7 @@ export function Header() {
         <nav className="links">
           <ul className="menu">
             <li>
-              <Link to="/cats">Veja Mais</Link>
+              <Link to="/cats">Saiba Mais</Link>
             </li>
           </ul>
         </nav>
