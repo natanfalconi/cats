@@ -1,0 +1,164 @@
+.section-adopt {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-adopt-about h2{
+  text-transform: uppercase;
+}
+
+.section-adopt-about h2, p{
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.content-adopt {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.content-adopt div {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.content-adopt div h3 {
+  color: #73503C;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content-adopt p {
+  padding: 1rem;
+}
+
+.btn-amigo {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 40%;
+  background: #73503C;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+
+  transition: filter 0.2s;
+  margin: 2rem 0;
+}
+
+.btn-amigo:hover {
+  cursor: pointer;
+  filter: brightness(0.9)
+}
+
+.pet {
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-text {
+  text-align: center;
+}
+
+.pet-text h2 {
+  text-transform: uppercase;
+}
+
+.pet-boby  {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.pet-boby div {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pet-boby img {
+  width: 80%;
+  border-radius: 0.25rem;
+
+}
+
+.pet-boby div a {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  background: #73503C;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+
+  font-weight: 400;
+
+  transition: filter 0.2s;
+}
+
+.pet-boby div a:hover {
+  filter: brightness(0.9)
+}
+
+.react-modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-modal-content{
+  width: 100%;
+  max-width: 1024px;
+
+  background: #fff;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.react-modal-close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border: 0;
+  background: transparent;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+  transition: filter 0.2s;
+}
+
+.react-modal-close:hover{
+  filter: brightness(0.8);
+  cursor: pointer;
+}

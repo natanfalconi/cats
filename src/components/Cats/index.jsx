@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { CatsList } from "../CatsList"
 import './styled.css'
+import { Footer } from './../Footer/index';
 
 export function Cats() {
   const [cats, setCats] = useState([])
@@ -23,6 +24,9 @@ export function Cats() {
           ))}
         </ul>
       </section>
+
+      
+      <Footer />
     </>
   )
 }

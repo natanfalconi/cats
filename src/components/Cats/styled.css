@@ -38,6 +38,10 @@
     gap: 20px;
 }
 
+.content-list p {
+    text-align: left;
+}
+
 .content-list img {
     width: 30%;
     border-radius: 0.25rem;

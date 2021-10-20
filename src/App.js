@@ -5,7 +5,7 @@ import { Home } from './components/Home'
 
 import { Switch, Route } from 'react-router-dom'
 import { Header } from "./components/Header";
-import { About } from "./components/About";
+import { Adopt } from "./components/Adopt";
 
 export function App() {
   return (
@@ -15,10 +15,9 @@ export function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/cats" exact component={Cats} />
-        <Route path="/adopt" exact component={About} />
+        <Route path="/adopt" exact component={Adopt} />
       </Switch>
 
-      {/* <Footer /> */}
     </>
   );
 }

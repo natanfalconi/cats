@@ -12,7 +12,7 @@ export function Header() {
           </Link>
         </div>
         
-        <Link to="/About" >Adote</Link>
+        <Link className="adopt" to="/adopt" >Adote</Link>
 
         <nav className="links">
           <ul className="menu">
@@ -26,7 +26,6 @@ export function Header() {
               <a href="">
                 <AiFillFacebook />
               </a>
-
             </li>
           </ul>
         </nav>
