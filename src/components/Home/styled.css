@@ -1,5 +1,6 @@
 .content_Home {
     width: 90%;
+    height: 90vh;
     display: flex;
     margin: 1rem auto;
     align-items: center;

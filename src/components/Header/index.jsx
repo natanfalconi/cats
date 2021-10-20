@@ -1,6 +1,5 @@
 import './styled.css'
-import { FaCat } from 'react-icons/all'
-import { Link } from 'react-router-dom'
+import { FaCat, AiFillLinkedin, FiInstagram, AiFillFacebook } from 'react-icons/all'
 
 export function Header() {
   return (
@@ -15,7 +14,16 @@ export function Header() {
         <nav className="links">
           <ul className="menu">
             <li>
-              <Link to="/cats">Saiba Mais</Link>
+              <a href="">
+                <AiFillLinkedin />
+              </a>
+              <a href="">
+                <FiInstagram />
+              </a>
+              <a href="">
+                <AiFillFacebook />
+              </a>
+
             </li>
           </ul>
         </nav>

@@ -8,7 +8,7 @@ export function Home() {
       <main className="content_Home">
         <div className="text">
           <h2>Apenda sobre seus amigos!</h2>
-          <p>O gato é um dos animais domésticos mais procurados para companhia. Independentes, esses animais carregam fortes heranças de seus ancestrais felinos, como o instinto da caça, muito reproduzido em suas brincadeiras. Esse animal adorável, no entanto, precisa de cuidados para viver mais e com bem-estar.</p>
+          <p>O gato é um dos animais domésticos mais procurados para companhia. Esse animal adorável, precisa de cuidados para viver mais e com bem-estar.</p>
           <Link to="/cats">Saiba Mais</Link>
         </div>
 

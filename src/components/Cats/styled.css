@@ -12,13 +12,18 @@
 
     padding: 0 1.5rem;
 
-    gap: 10px;
+    gap: 20px;
 }
 
 .cats_container-list li {
     list-style: none;
     padding: 1rem;
+    transition: transform .2s;
 
+}
+
+.cats_container-list li:hover{
+    transform: scale(1.1);
 }
 
 .cats_container a {
@@ -26,7 +31,34 @@
     color: #73503C;
 }
 
-.content-list img {
-    width: 20%;
+.content-list {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
 
+.content-list img {
+    width: 30%;
+    border-radius: 0.25rem;
+}
+
+.content-list a {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 40%;
+    background: #73503C;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    transition: filter 0.2s;
+}
+
+.content-list a:hover {
+    filter: brightness(0.9)
 }
