@@ -15,15 +15,34 @@ header {
     align-items: center;
 }
 
-.adopt {
-    color: #fff;
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.links .adopt {
+    color: #262521;
     text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0.25rem;
     text-transform: uppercase;
+    transition: background-color 300ms ease;
+
+}
+
+.links .adopt:hover {
+    background-color: #262521;
+    color: #fff;
+    opacity: 0.9;
 }
 
 .logo a svg {
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .menu {
@@ -33,7 +52,7 @@ header {
 .menu li {
     display: flex;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #fff;
     gap: 10px;
 }

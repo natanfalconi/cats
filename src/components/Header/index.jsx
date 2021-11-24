@@ -11,10 +11,9 @@ export function Header() {
             <FaCat />
           </Link>
         </div>
-        
-        <Link className="adopt" to="/adopt" >Adote</Link>
 
         <nav className="links">
+          <Link className="adopt" to="/adopt">Adotar</Link>
           <ul className="menu">
             <li>
               <a href="">
